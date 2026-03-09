@@ -1,5 +1,6 @@
 import './App.css'
 import { GridLayout } from './components/GridLayout'
+import { PhysicalUI } from './components/PhysicalUI'
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
           position: "relative"
         }}
       >
-        <GridLayout />
+        <PhysicalUI></PhysicalUI>
       </div> 
     </>
   )
